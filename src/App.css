@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  justify-content: center;  
+}
+.rect{
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: red;
+  border: none;
+
+}
+.redBackGround{
+  display: inline-block;
+  padding: 18% 15%;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgb(233, 47, 47);
+  border: none;
+}
+.greenBackGround{
+  display: inline-block;
+  padding: 18% 15%;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgb(12, 185, 49);
+  border: none;
+}
+.showText{
+  color:#000;
+  text-align:center;
+  margin-top: 5px;
+}
+.hideText{
+  display: none;
+}
